@@ -75,12 +75,16 @@ pub type DynResult<T> = Result<T, Box<dyn Error>>;
 static NIGHTLY_RELEASE: &str = "REFramework-nightly";
 static REPO_OWNER: &str = "praydog";
 static GAMES: [(&str, &str); 6] = [
+    ("2054970", "DD2"),
     ("601150", "DMC5"),
     ("1446780", "MHRISE"),
+    ("2246340", "MHWILDS"),
     ("883710", "RE2"),
     ("952060", "RE3"),
+    ("2050650", "RE4"),
     ("418370", "RE7"),
     ("1196590", "RE8"),
+    ("1364780", "SF6"),
 ];
 static GAMES_NEXTGEN_SUPPORT: [&str; 3] = ["RE2", "RE3", "RE7"];
 
