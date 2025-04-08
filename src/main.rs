@@ -76,6 +76,8 @@ static NIGHTLY_RELEASE: &str = "REFramework-nightly";
 static REPO_OWNER: &str = "praydog";
 static GAMES: [(&str, &str); 6] = [
     ("2054970", "DD2"),
+    ("2187220", "DD2"),
+    ("2510710", "DD2"),
     ("601150", "DMC5"),
     ("1446780", "MHRISE"),
     ("2246340", "MHWILDS"),
@@ -84,6 +86,7 @@ static GAMES: [(&str, &str); 6] = [
     ("2050650", "RE4"),
     ("418370", "RE7"),
     ("1196590", "RE8"),
+    ("1375400", "RE8"),
     ("1364780", "SF6"),
 ];
 static GAMES_NEXTGEN_SUPPORT: [&str; 3] = ["RE2", "RE3", "RE7"];
